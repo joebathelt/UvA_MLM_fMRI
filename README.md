@@ -11,10 +11,13 @@ The notebooks teach you how to analyse task-based functional MRI (fMRI) data in 
 | 1 | Goals of experimental science & modelling | [coming soon] |
 | 2 | Introduction to multi-level models | [coming soon] |
 | 3 | Introduction to neuroimaging and the General Linear Model | [Week3/MLM_fMRI_Week3.ipynb](Week3/MLM_fMRI_Week3.ipynb) |
-| 4 | Preprocessing, prewhitening and contrasts | [coming soon] |
+| 4 | Preprocessing, prewhitening and contrasts | [Week4/MLM_fMRI_Week4.ipynb]([Week4/MLM_fMRI_Week4.ipynb]) |
 | 5 | Multi-level modelling of fMRI data | [coming soon] |
 
 **Week 3** covers how MRI data are stored in NIfTI files (header, data array and affine), how to visualise brain images, and how to extract time series from single voxels and atlas regions. It then introduces the GLM with a face perception experiment: from events files and the haemodynamic response, to fitting a model by hand for one voxel, to whole-brain analysis with nilearn's `FirstLevelModel` and evaluating model fit. It ends with a practice exercise on an auditory dataset.
+
+**Week 4** covers how neuroimaging data are organised with the Brain Imaging Data Structure (BIDS) and walks through the main preprocessing steps: motion correction, susceptibility distortion correction, slice timing correction, coregistration, normalisation and spatial smoothing, with interactive demos and a simulation of how smoothing affects GLM statistics. It then returns to the GLM with fMRIPrep-preprocessed data from a face perception experiment (smiling and neutral faces), showing how motion confounds and prewhitening improve a first-level model. It ends with contrasts between experimental conditions and a discussion of why single-participant results need correction for multiple comparisons and group-level analysis.
+
 
 ## Getting started
 
