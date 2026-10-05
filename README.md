@@ -46,7 +46,7 @@ Please check the terms of use of each dataset before using it outside this cours
 
 ## Acknowledgements
 
-Parts of these materials are adapted from the *[previous course name]* notebooks, originally developed by H. Steven Scholte and Lukas Snoek (2019) and updated by Joe Bathelt (2025).
+Parts of these materials are adapted from the notebook of the course Neuroimaging: BOLD MRI, originally developed by H. Steven Scholte and Lukas Snoek (2019) and updated by Joe Bathelt (2025).
 
 ## License
 
