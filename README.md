@@ -12,12 +12,13 @@ The notebooks teach you how to analyse task-based functional MRI (fMRI) data in 
 | 2 | Introduction to multi-level models | [coming soon] |
 | 3 | Introduction to neuroimaging and the General Linear Model | [MLM_fMRI_Week3.ipynb](Week3/MLM_fMRI_Week3.ipynb) |
 | 4 | Preprocessing, prewhitening and contrasts | [MLM_fMRI_Week4.ipynb]([Week4/MLM_fMRI_Week4.ipynb]) |
-| 5 | Multi-level modelling of fMRI data | [coming soon] |
+| 5 | Multi-level modelling of fMRI data & Multiple Comparison Correction | [MLM_fMRI_Week5.ipynb]([Week5/MLM_fMRI_Week5.ipynb]) |
 
 **Week 3** covers how MRI data are stored in NIfTI files (header, data array and affine), how to visualise brain images, and how to extract time series from single voxels and atlas regions. It then introduces the GLM with a face perception experiment: from events files and the haemodynamic response, to fitting a model by hand for one voxel, to whole-brain analysis with nilearn's `FirstLevelModel` and evaluating model fit. It ends with a practice exercise on an auditory dataset.
 
 **Week 4** covers how neuroimaging data are organised with the Brain Imaging Data Structure (BIDS) and walks through the main preprocessing steps: motion correction, susceptibility distortion correction, slice timing correction, coregistration, normalisation and spatial smoothing, with interactive demos and a simulation of how smoothing affects GLM statistics. It then returns to the GLM with fMRIPrep-preprocessed data from a face perception experiment (smiling and neutral faces), showing how motion confounds and prewhitening improve a first-level model. It ends with contrasts between experimental conditions and a discussion of why single-participant results need correction for multiple comparisons and group-level analysis.
 
+**Week 5** moves from single participants to group-level inference. It starts with visualising statistical maps in nilearn: slices, glass brains, the cortical surface and atlas regions. It then runs a group-level analysis of the faces > others contrast from 12 participants of the NI-edu functional localiser, first as a random-effects one-sample t-test and then as a mixed-effects analysis that weights participants by the precision of their estimates. Next, it compares methods for correcting for multiple comparisons on a simulated 2D brain, where the true effect is known: uncorrected thresholds, Bonferroni, false discovery rate, random field theory and cluster-extent thresholding. It then applies them to the real group map. It ends with non-parametric permutation tests, which use sign flipping and the maximum statistic to control the family-wise error rate, and a region-of-interest analysis showing that the same test becomes more sensitive when the search space is reduced to a region chosen in advance.
 
 ## Getting started
 
