@@ -8,11 +8,15 @@ The notebooks teach you how to analyse task-based functional MRI (fMRI) data in 
 
 | Week | Topic | Notebook |
 |------|-------|----------|
-| 1 | Goals of experimental science & modelling | [coming soon] |
-| 2 | Introduction to multi-level models | [coming soon] |
+| 1 | Introduction to multi-level models | [MLM_fMRI_Week1.ipynb](MLM_fMRI_Week1.ipynb) |
+| 2 | Introduction to multi-level models | [MLM_fMRI_Week2.ipynb](MLM_fMRI_Week2.ipynb) |
 | 3 | Introduction to neuroimaging and the General Linear Model | [MLM_fMRI_Week3.ipynb](MLM_fMRI_Week3.ipynb) |
 | 4 | Preprocessing, prewhitening and contrasts | [MLM_fMRI_Week4.ipynb]([MLM_fMRI_Week4.ipynb]) |
 | 5 | Multi-level modelling of fMRI data & Multiple Comparison Correction | [MLM_fMRI_Week5.ipynb]([MLM_fMRI_Week5.ipynb]) |
+
+**Week 1** along with **Week 2** introduce computational modelling in cognitive science at different levels. Week 1 will begin at the highest level, modelling behavior in humans and in AI models. It starts with exploring the basics of reinforcement learning as a means to model learning and decision making processes. Next, it moves on to modelling the behavior of language models by treating them as participants in a psychology experiment, probing the grammatical knowledge of small, open-source language models and then investigating biases in large chat-facing LLMs.
+
+**Week 2** introduces the basics of artificial neural networks and applies them to task of object classification. The second part of the week goes one step lower to model the behavior of a single neuron, and then extending that to model an entire cortical microcircuit
 
 **Week 3** covers how MRI data are stored in NIfTI files (header, data array and affine), how to visualise brain images, and how to extract time series from single voxels and atlas regions. It then introduces the GLM with a face perception experiment: from events files and the haemodynamic response, to fitting a model by hand for one voxel, to whole-brain analysis with nilearn's `FirstLevelModel` and evaluating model fit. It ends with a practice exercise on an auditory dataset.
 
