@@ -12,7 +12,7 @@ The notebooks teach you how to analyse task-based functional MRI (fMRI) data in 
 | 2 | Introduction to multi-level models | [MLM_fMRI_Week2.ipynb](MLM_fMRI_Week2.ipynb) |
 | 3 | Introduction to neuroimaging and the General Linear Model | [MLM_fMRI_Week3.ipynb](MLM_fMRI_Week3.ipynb) |
 | 4 | Preprocessing, prewhitening and contrasts | [MLM_fMRI_Week4.ipynb]([MLM_fMRI_Week4.ipynb]) |
-| 5 | Multi-level modelling of fMRI data & Multiple Comparison Correction | [MLM_fMRI_Week5.ipynb]([MLM_fMRI_Week5.ipynb]) |
+| 5 | Group-level Analysis & Multiple Comparison Correction | [MLM_fMRI_Week5.ipynb]([MLM_fMRI_Week5.ipynb]) |
 
 **Week 1** along with **Week 2** introduce computational modelling in cognitive science at different levels. Week 1 will begin at the highest level, modelling behavior in humans and in AI models. It starts with exploring the basics of reinforcement learning as a means to model learning and decision making processes. Next, it moves on to modelling the behavior of language models by treating them as participants in a psychology experiment, probing the grammatical knowledge of small, open-source language models and then investigating biases in large chat-facing LLMs.
 
